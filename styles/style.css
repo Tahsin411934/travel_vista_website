@@ -16,20 +16,18 @@
 
 body {
     background-color: #FFF;
-    max-width: 1440px;
 }
 
 header,
 main {
     width: 81.25%;
     max-width: 73.125rem;
-    margin: 0px auto;
+    margin: 0rem auto;
 
 }
 
 section {
     margin-bottom: 6rem;
-    max-width: 1170px;
 }
 
 /* comman style end*/
@@ -148,9 +146,8 @@ header {
     justify-content: center;
     align-items: flex-start;
     width: 48rem;
-    padding: 16px;
-    gap: 24px;
-    border-radius: 8px;
+    padding: 1rem;
+    border-radius: 0.5rem;
     background: rgba(255, 255, 255, 0.30);
 
 }
@@ -176,6 +173,7 @@ select {
     background: #FF5400;
     border: none;
 }
+
 
 select,
 input {
@@ -208,46 +206,48 @@ input {
     display: flex;
     gap: 3.4rem;
 }
-
+.Popular-tour-txt{
+    width: 50%;
+}
 .Popular-tour-txt>h1 {
     color: #131318;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 800;
     margin-bottom: 1.5rem;
 }
 
 .Popular-tour-txt>p {
-    width: 577px;
+    width: 36rem;
     color: rgba(19, 19, 24, 0.70);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 1.62rem;
     /* 162.5% */
     margin-bottom: 1.5rem;
 }
 
 .Popular-tour-txt ul {
     padding-left: 1.2rem;
-    width: 525px;
+    width: 32.81rem;
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
     color: rgba(19, 19, 24, 0.70);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 1.6rem;
     /* 162.5% */
 }
 
 .Popular-tour-last-p {
-    width: 525px;
+    width: 35rem;
     margin-top: 1.5rem;
 }
 
 .popular-tour-image>img {
-    width: 540px;
-    height: 550px;
-    flex-shrink: 0;
+    width: 100%;
+    height: 36rem;
+
 }
 
 /* Popular-Tours-section end */
@@ -262,24 +262,24 @@ input {
 }
 
 .common-heading-container {
-    width: 643px;
-    margin: 0px auto;
+    width: 40rem;
+    margin: 0rem auto;
 }
 
 .common-heading-container>h1 {
     color: #131318;
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 800;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
 
 .common-heading-container>p {
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    margin-bottom: 48px;
+    margin-bottom: 3rem;
 }
 
 .row {
@@ -333,7 +333,7 @@ input {
 .row h4 {
     color: #FFF;
     text-align: center;
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 800;
 }
 
@@ -352,14 +352,14 @@ input {
 .Choose-us-content,
 .Choose-us-content1,
 .Choose-us-content2 {
-    width: 573px;
-    height: 284px;
+    width: 36rem;
+    height: 17rem;
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 1.4rem;
 }
 
 .Choose-us-content {
@@ -380,15 +380,15 @@ input {
 }
 
 .container-content {
-    width: 486px;
-    padding-top: 30px;
+    width: 30rem;
+    padding-top: 1.8rem;
 }
 
 
 .Choose-us-container h1,
 .Choose-us-container-center h1 {
     color: #131318;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 800;
     margin: 2rem 0rem;
 }
@@ -396,16 +396,16 @@ input {
 .Choose-us-container p,
 .Choose-us-container-center p {
     color: rgba(19, 19, 24, 0.70);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 1.6rem;
 
 }
 
 .Choose-us-container-center {
     display: grid;
     justify-content: center;
-    margin-top: 56px;
+    margin-top: 3.5rem;
 }
 
 
@@ -429,7 +429,7 @@ input {
     background-repeat: no-repeat;
     width: 100%;
     height: 31.25rem;
-    border-radius: 16px;
+    border-radius: 1rem;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 39.png');
     margin-bottom: 1rem;
 
@@ -441,7 +441,7 @@ input {
     background-repeat: no-repeat;
     width: 100%;
     height: 31.25rem;
-    border-radius: 16px;
+    border-radius: 1rem;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 40.png');
     margin-bottom: 1rem;
 
@@ -453,7 +453,7 @@ input {
     background-repeat: no-repeat;
     width: 100%;
     height: 31.25rem;
-    border-radius: 16px;
+    border-radius: 1rem;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 39.png');
     margin-bottom: 1rem;
 }
@@ -463,8 +463,8 @@ input {
     top: 4rem;
     right: 3%;
     width: 50%;
-    height: 389px;
-    border-radius: 16px;
+    height: 24rem;
+    border-radius: 1rem;
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
 
@@ -475,8 +475,8 @@ input {
     top: 4rem;
     left: 3%;
     width: 50%;
-    height: 389px;
-    border-radius: 16px;
+    height: 24rem;
+    border-radius: 1rem;
     background: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
 
@@ -488,24 +488,24 @@ input {
     flex-direction: column;
 
     width: 80%;
-    margin: 50px 52px;
+    margin: 3.12rem 3.25rem;
 }
 
 .small-txt {
 
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 0.6rem;
 }
 
 .card-content h2 {
     color: #131318;
     font-family: Mulish;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    margin-top: 26px;
+    margin-top: 1.67rem;
     padding-bottom: 1rem;
 
 }
@@ -513,10 +513,10 @@ input {
 .card-content p {
     color: #5A5A5D;
     font-family: Mulish;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 1.7rem;
     /* 162.5% */
 
 }
@@ -524,7 +524,7 @@ input {
 .card-content h3 {
     color: #FF5400;
     font-family: Mulish;
-    font-size: 20px;
+    font-size: 1.3rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -538,10 +538,10 @@ input {
 .bolding>li {
     color: #131318;
     font-family: Mulish;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 26px;
+    line-height: 1.7rem;
 }
 
 
@@ -558,11 +558,12 @@ input {
 .newslatter-container {
     display: flex;
     justify-content: space-between;
+    gap: 2rem;
 
 }
 
 .newslatter-content {
-    border-radius: 16px;
+    border-radius: 1rem;
     border: 1px solid #FF5400;
 }
 
@@ -573,7 +574,7 @@ input {
 .newslatter-content h1{
     color: #131318;
 font-family: Mulish;
-font-size: 24px;
+font-size: 1.5rem;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
@@ -582,16 +583,16 @@ line-height: normal;
     width: 70%;
     color: #5A5A5D;
 font-family: Mulish;
-font-size: 16px;
+font-size: 1rem;
 font-style: normal;
 font-weight: 400;
-line-height: 26px; 
+line-height: 1.67rem; 
 margin: 1.5rem 0rem;
 }
 .newslatter-content button{
     margin-top: 1rem;
     width: 83%;
-    height: 42px;
+    height: 2.67rem;
 }
 
 .inputs{
@@ -599,7 +600,7 @@ margin: 1.5rem 0rem;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
     width: 80%;
-    height: 52px;
+    height: 2.67rem;
     margin-bottom: 1rem;
     
 }
@@ -639,7 +640,7 @@ footer {
     margin-top: 2rem;
     margin-bottom: 2rem;
     color: #5A5A5D;
-font-size: 16px;
+font-size: 1rem;
 font-weight: 400;
 }
 .icons{
@@ -692,15 +693,11 @@ hr{
 
 
 
-
-
-
 @media screen and (max-width:600px) {
 
     header,
     main,footer {
         width: 90%;
-        max-width: 600px;
         margin: 0px auto;
 
     }
@@ -802,7 +799,9 @@ hr{
 
     }
 
-
+    .Popular-tour-txt{
+        width: 100%;
+    }
 
     .Popular-tour-txt>h1 {
         font-size: 1.3rem;
@@ -946,7 +945,7 @@ hr{
 
     .container-content {
         width: 88%;
-        padding-top: 30px;
+        padding-top: 1rem;
     }
 
 
@@ -982,7 +981,7 @@ hr{
         bottom: 1%;
         margin: auto;
         width: 90%;
-
+        height: 28rem;
 
     }
 
@@ -991,7 +990,7 @@ hr{
         position: absolute;
         bottom: 1%;
         width: 90%;
-
+        height: 28rem;
 
     }
 
@@ -1023,28 +1022,6 @@ hr{
     iframe{
         width: 93%;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
