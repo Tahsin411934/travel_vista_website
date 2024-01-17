@@ -1017,6 +1017,9 @@ hr{
         padding-bottom: 1rem;
 
     }
+    iframe{
+        width: 100%;
+    }
 
 
 
