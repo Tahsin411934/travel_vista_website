@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Layout</title>
+  <style>
+    body {
+      display: grid;
+      place-items: center; /* Center the grid items both horizontally and vertically */
+      height: 100vh; /* Make the grid take the full height of the viewport */
+      margin: 0; /* Remove default margin */
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* Two columns in the first row */
+      gap: 20px; /* Adjust the gap between columns */
+    }
+
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: lightblue;
+      border: 1px solid #333;
+    }
+
+    .full-width-box {
+      grid-column: span 2; /* Make the box span both columns in the second row */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="box">1</div>
+    <div class="box">2</div>
+  </div>
+
+  <div class="box full-width-box">3</div>
+
+</body>
+</html>
