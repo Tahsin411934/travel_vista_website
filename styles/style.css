@@ -638,6 +638,9 @@ footer {
     margin: 0px auto;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
 }
 .icons{
    display: flex;
@@ -1018,7 +1021,7 @@ hr{
 
     }
     iframe{
-        width: 100%;
+        width: 93%;
     }
 
 
